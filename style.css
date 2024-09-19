@@ -1,0 +1,52 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+caption { 
+    caption-side:top;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #150303;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #3b041d;
+}
+
+td {
+    background-color: #6b6a73;
+}
+
+/* Roundin table corners */
+
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+
+table tr:last-child td:last-child {
+    border-bottom-left-radius: 15px;
+}
